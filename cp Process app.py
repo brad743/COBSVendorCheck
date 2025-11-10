@@ -16,7 +16,7 @@ st.write(
 # --- File uploads ---
 vendor_file = st.file_uploader("📁 Upload Vendor List CSV", type=["csv"])
 req_file = st.file_uploader("📋 Upload Requirements Checklist CSV", type=["csv"])
-threshold = st.slider("Match Threshold (%)", 0, 100, 65)
+threshold = st.slider("Match Threshold (%)", 0, 100, 45)
 
 # --- Utility: find probable column names ---
 def find_col(df, candidates):
